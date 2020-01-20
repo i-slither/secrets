@@ -8,12 +8,26 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^3.0.7",
     "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
+    "express-session": "^1.17.0",
     "install": "^0.13.0",
-    "mongoose": "^5.8.4"
+    "mongoose": "^5.8.4",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.0.1"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damienBlack006/secrets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/damienBlack006/secrets/issues"
+  },
+  "homepage": "https://github.com/damienBlack006/secrets#readme",
   "description": ""
 }
